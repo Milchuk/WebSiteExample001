@@ -1,0 +1,147 @@
+.conteinerOfLectures{
+	position: relative;
+	width: 100%;
+}
+
+ 
+.boxOfl{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+/*---------------------------*/
+
+.boxOfLec{
+	position: relative;
+	box-shadow: 0 2px 12px 0;
+	flex-basis: 45%;
+	display: flex;
+	margin-bottom: 1%;
+}
+
+.headerrLec{
+	width: 45%;
+}
+
+.headerrTextLec{
+	width: 55%;
+	margin-left: 5px;
+}
+
+img.hatLec{
+	width: 100%;
+	margin: 5px;
+}
+
+.boxOfLec h1{
+	font-family: 'Comfortaa', cursive;
+	text-align: left;
+	font-size: 2vw;
+	margin-top: 0;
+	margin-left: 5px;
+}
+
+.boxOfLec p{
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 1vw;
+	padding-left: 15px;
+	margin-top: 0;
+	margin-bottom: 1%;
+}
+
+p.time{
+	color: gray;
+	padding-left: 15px;
+}
+
+.boxOfLec img.clock{
+	width: 10%;
+	float: left;
+	margin-left: 0px;
+}
+
+.boxOfLec img.images{
+	position: absolute;
+	width: 38%;
+	bottom: 5%;
+	margin-left: 20px;
+}
+
+.boxOfLec img.images:hover{
+	width: 38%;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 5%;
+	margin-left: 20px;
+}
+
+/*---------------------------*/
+
+@media only all and (max-device-width: 1000px) {
+
+.boxOfl{
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.boxOfLec{
+	position: relative;
+	box-shadow: 0 2px 12px 0;
+	flex-basis: 100%;
+	display: flex;
+	margin-bottom: 1%;
+}
+
+.headerrLec{
+	width: 45%;
+}
+
+
+img.hatLec{
+	width: 100%;
+	margin: 5px;
+}
+
+.boxOfLec h1{
+	font-family: 'Comfortaa', cursive;
+	text-align: left;
+	font-size: 4vw;
+}
+
+.boxOfLec p{
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 3vw;
+	padding-left: 15px;
+	margin: 5%;
+}
+
+p.time{
+	color: gray;
+	padding-left: 15px;
+}
+
+.boxOfLec img.clock{
+	width: 10%;
+	float: left;
+	margin-left: 0px;
+}
+
+.boxOfLec img.images{
+	position: absolute;
+	width: 30%;
+}
+
+.boxOfLec img.images:hover{
+	position: absolute;
+	width: 30%;
+}
+
+}

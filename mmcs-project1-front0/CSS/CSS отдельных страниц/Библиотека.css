@@ -1,0 +1,40 @@
+.librContainer{
+	width: 100%;
+	position: relative;
+	display: flex;
+}
+.library{
+	position: absolute;
+	left: 15%;
+}
+
+.library a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+}
+.library a:hover{
+	text-decoration: underline;
+}
+
+@media only all and (max-device-width: 1000px) {
+
+.library{
+	position: absolute;
+	left: 0;
+}
+
+.library a{
+	font-size: 4vw;
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+}
+.library a:hover{
+	text-decoration: underline;
+	font-size: 4vw;
+}
+
+.library h3{
+	font-size: 5vw;
+}
+
+}

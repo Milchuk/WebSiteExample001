@@ -1,0 +1,346 @@
+
+div.TriangleMainBox{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	display: flex;
+	flex-direction: column;
+}
+
+div.TriangleMainBox div{
+	margin-bottom: 50px;
+}
+
+#description{
+	font-family: Ubuntu, arial;
+}
+
+#videoTriangle{
+	display: flex;
+	justify-content: row;
+	margin-bottom: 10%;
+}
+
+div.window{
+    height: 0;
+	width: 200px;
+	position: center;
+	padding-bottom: 20px;
+	padding-top: 50px;
+	padding-left: 5px;
+	padding-right: 100px;
+}
+
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 20px;
+	
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+}
+@media only all and (max-device-width: 1000px) {
+	
+div.TriangleMainBox{
+	position: absolute;
+	left: 5%;
+	right: 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+div.TriangleMainBox div{
+	margin-bottom: 100px;
+}
+
+#description{
+	font-family: Ubuntu, arial;
+	font-size: 40px;
+}
+
+#videoTriangle{
+	display: flex;
+	justify-content: column;
+}
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 40px;
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+	font-size: 35px;
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+	font-size: 35px;
+}
+
+
+
+}
+
+
+
+div.AlgebraMainBox{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	display: flex;
+	flex-direction: column;
+}
+
+div.AlgebraMainBox div{
+	margin-bottom: 50px;
+}
+
+#description{
+	font-family: Ubuntu, arial;
+}
+
+#videoAlgebra{
+	display: flex;
+	justify-content: row;
+}
+
+
+
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 20px;
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+}
+@media only all and (max-device-width: 1000px) {
+	
+div.AlgebraMainBox{
+position: absolute;
+left: 5%;
+right: 2%;
+display: flex;
+flex-direction: column;
+}
+
+div.AlgebraMainBox div{
+	margin-bottom: 100px;
+}
+
+#description{
+	font-family: Ubuntu, arial;
+	font-size: 40px;
+}
+
+#videoAlgebra{
+	display: flex;
+	justify-content: column;
+}
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 40px;
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+	font-size: 35px;
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+	font-size: 35px;
+}
+
+
+
+}
+
+
+div.FermaMainBox{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	display: flex;
+	flex-direction: column;
+}
+
+div.FermaMainBox div{
+	margin-bottom: 50px;
+}
+
+#description{
+	font-family: Ubuntu, arial;
+}
+
+#videoFerma{
+	position: center;
+	padding-left: 150px;
+	
+}
+
+
+
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 20px;
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+}
+@media only all and (max-device-width: 1000px) {
+	
+div.FermaMainBox{
+position: absolute;
+left: 5%;
+right: 2%;
+display: flex;
+flex-direction: column;
+}
+
+div.FermaMainBox div{
+	margin-bottom: 100px;
+}
+
+#description{
+	font-family: Ubuntu, arial;
+	font-size: 40px;
+}
+
+#videoFerma{
+	position: center;
+}
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 40px;
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+	font-size: 35px;
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+	font-size: 35px;
+}
+
+div.window{
+	height: 0;
+	position: relative;
+	padding-bottom: 56,25%;
+	padding-top: 25px;
+	
+}
+}
+
+div.RepunitMainBox{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	display: flex;
+	flex-direction: column;
+}
+
+div.RepunitMainBox div{
+	margin-bottom: 50px;
+}
+
+
+}
+
+#description{
+	font-family: Ubuntu, arial;
+}
+
+#videoRepunit{
+	position: center;
+	padding-left: 150px;
+	
+}
+
+
+
+
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 20px;
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+}
+@media only all and (max-device-width: 1000px) {
+	
+div.RepunitMainBox{
+position: absolute;
+left: 5%;
+right: 2%;
+display: flex;
+flex-direction: column;
+}
+
+div.RepunitMainBox div{
+	margin-bottom: 100px;
+}
+
+
+
+
+#description{
+	font-family: Ubuntu, arial;
+	font-size: 40px;
+}
+
+#videoRepunit{
+	position: center;
+}
+
+#lit p{
+	font-family: georgia, arial;
+	font-size: 40px;
+}
+
+#lit a{
+	text-decoration-line: none;
+	color: rgb(300, 110, 105);
+	font-size: 35px;
+}
+
+#lit a:hover{
+	text-decoration-line: underline;
+	font-size: 35px;
+}
+}

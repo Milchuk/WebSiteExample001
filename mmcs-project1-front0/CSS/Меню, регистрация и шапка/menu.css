@@ -1,0 +1,120 @@
+/*Блок с внешними ссылками*/
+.menu6 {
+	position: absolute;
+	left: 15%;
+	top: 40%;
+	width: 500px;
+	min-width: 300px;
+	height: 150px;
+	text-align: left;
+}
+
+.menu6 p.ss a{
+	font-family: "Arial";
+	color: gray;
+	text-decoration: none;
+	display: inline-block;
+}
+.menu6 p.ss a:hover{
+	font-family: "Arial";
+	color: black;
+	display: inline-block;
+}
+
+/*Почта MMCS*/
+.img01 {
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+}
+
+/*Подписаться на MMCS*/
+.img02 {
+	float: left;
+	width: 200px;
+}
+/*текст история мат школы */
+div.HistoryMathSchool{
+	width: 700px;
+padding: 7px;
+padding-left: 30px;
+float: left;
+}
+
+/*Форма Регистрации*/
+div.form{
+	display: inline-block;
+	position: absolute;
+	right: 7%;
+	margin: 15px;
+	bottom: 30%;
+
+}
+
+/*Блок с элементами списка меню*/
+.list {
+	position: absolute;
+	left: 15%;
+	list-style-type: none;
+}
+
+
+/*Блок с крестиком*/
+.rood{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	/*overflow: auto;*/
+	min-width: 1000px;
+}
+
+/*Крест*/
+img.img4 {
+	width : 50px;
+}
+
+/*Выезжающее меню*/
+
+.sidenav {
+    height: 100%;
+    min-height: 1000px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.90);
+    overflow-x: hidden;
+    transition: 0.5s;
+   /* padding-top: 60px; */
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.sidenav a:hover{
+    color: #C0C0C0;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    font-size: 36px;
+    margin-left: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

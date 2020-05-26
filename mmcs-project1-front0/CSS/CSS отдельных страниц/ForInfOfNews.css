@@ -1,0 +1,30 @@
+div.newsFo{
+	width: 100%;
+	height: 500px;
+	background-color: #FAFAFA;
+	position: relative;
+}
+
+div.newsFoIn{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	display: flex;
+}
+
+div.inf{
+	flex: 2;
+}
+
+div.datetime{
+	background-color: white;
+	flex: 1;
+}
+
+div.inf p{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+div.datetime p{
+	font-family: 'Fira Sans', sans-serif;
+}
